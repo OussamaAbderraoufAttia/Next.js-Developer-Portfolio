@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+//Importing the Inter font
 import { Montserrat } from 'next/font/google'
 
 const montserrat = Montserrat({ 
