@@ -7,7 +7,7 @@ export default function Home() {
         <title>Oussama Abderraouf ATTIA</title>
         <meta name="description" content="Oussama Abderraouf ATTIA, 2CP student at ESI Algiers" />
       </Head>
-      <main className="">
+      <main className="bg-black text-white ">
         Home
       </main>
     </>
