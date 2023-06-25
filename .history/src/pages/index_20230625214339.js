@@ -6,7 +6,7 @@ import developerPic from '../../public/images/profile/developer-pic-1.png';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
-import LightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <Layout className='!mt-0'>
           <div className="flex  items-center justify-between w-full">
             <div className='w-1/2'>
-              <Image src={developerPic} alt="Oussama Abderraouf ATTIA" className="p-32 w-auto h-auto" />
+              <Image src={developerPic} alt="Oussama Abderraouf ATTIA" className="p-32w-auto h-auto" />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center '>
               <AnimatedText text="Turning Vision Into Reality With Code And AI." className='!text-5xl !text-left'/>
@@ -43,10 +43,6 @@ export default function Home() {
         </Layout>
 
         <HireMe />
-
-        <div className='absolute right-8 bottom-0 inline-block w-24'>
-          <Image src={LightBulb} alt="OAA" className='w-full h-auto' />
-        </div>
       </main>
     </>
   );
