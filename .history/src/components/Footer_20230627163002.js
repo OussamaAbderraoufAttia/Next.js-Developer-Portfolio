@@ -5,15 +5,15 @@ import Layout from './Layout';
 const Footer = () => {
   return (
     <div>
-      <footer className='w-full border-t-2  border-solid  border-dark 
+      <footer className='w-full border border-solid border-dark 
       font-medium text-lg
       '>
-        <Layout className=' py-6 flex items-center justify-between '>
+        <Layout className='py-8 flex items-center justify-between'>
         <span>
             2023 All rights reserved. 
         </span>
         <div>
-            <p  >
+            <p>
                 Built with &#10084; by Oussama Abderraouf ATTIA
              </p>
         </div>
@@ -25,4 +25,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
